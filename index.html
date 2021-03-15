@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Tanmay | Homepage</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+      <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      <script src="index.js"></script>
+      <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+      <button id="scrollBtn" title="Go to top">
+            &#5169;</button>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" class="font-weight-bold" href="">Insight, IIT Bombay</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                        <li class="nav-item">
+                              <a href="#ycombinator" class="nav-link text-success">Y-Combinator News</a>
+                        </li>
+                        <li class="nav-item">
+                              <a href="#Entrepreneurial" class="nav-link text-danger">Entrepreneurial World</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                              <a href="#ambitions" class="nav-link text-primary">Ambitions</a>
+                        </li> -->
+                  </ul>
+            </div>
+      </nav>
+
+      <!-- <a href="images/Tanmay_2.jpg"><img id='myimg' class="mt-5" src="images/Tanmay_2.jpg"
+                  alt="Hey!looks like the image couldn't load"></a> -->
+      <div class="display-2 mt-3 p-4" id='name'>Insight, IIT Bombay</div>
+<h4 class="text-center my-5">Insight is IIT Bombay's Official Student Media Body.
+      Website:<a style="color: red;" href="http://www.insightiitb.org/"> http://www.insightiitb.org/</a> </h4> 
+      <h1 class="heading" id='ycombinator'>Y-Combinator News</h1>
+      <div class="container mt-5">
+            <div class="headlines lg-screen row">
+
+                  <div class='col-sm'>
+                        <a class="animate" href='pre-product.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>The Pre-Product Startup</div>
+                              <div class='image-author-lg'>Reshma Khilnani</div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='yc-build.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>YC Build Sprint Winter 2021</div>
+                              <div class='image-author-lg'>Kyle Corbitt </div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='biotech.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>How to Start a Biotech Company on a Budget</div>
+                              <div class='image-author-lg'>Reshma Khilnani</div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='future.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>Building for the future</div>
+                              <div class='image-author-lg'>Samantha Marshall</div>
+                        </a>
+                  </div>
+            </div>
+            <div class="sm-screen">
+                  <div class="carousel" data-flickity='{ "autoPlay": 1500,"wrapAround": true }'>
+                        <div class="carousel-cell">
+                              <a href='pre-product.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          The Pre-Product Startup</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Reshma Khilnani</div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='yc-build.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          YC Build Sprint Winter 2021</div>
+                                    <div class='image-author-lg' style='left: 10%;'>TanmayHiremath</div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='biotech.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          How to Start a Biotech Company</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Reshma Khilnani</div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='future.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          Building for the future</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Samantha Marshall</div>
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <h1 class="heading mt-5" id='Entrepreneurial'>Entrepreneurial World</h1>
+      <div class="container mt-5">
+            <div class="headlines lg-screen row">
+
+                  <div class='col-sm'>
+                        <a class="animate" href='netflix.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>Netflix’s Co-Founder Has 5 Pieces of Advice</div>
+                              <div class='image-author-lg'>Omar Itani</div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='entrepreneur.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>Don't become an entrepreneur</div>
+                              <div class='image-author-lg'>Aytekin Tank </div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='reframing.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>REFRAMING THE NARRATIVE ON ENTREPRENEURSHIP</div>
+                              <div class='image-author-lg'>GARY VAYNERCHUK</div>
+                        </a>
+                  </div>
+                  <div class='col-sm'>
+                        <a class="animate" href='reasons.html'><img class='img-lg'
+                                    style='max-width: 100%;' src="images/picture1.jpg" alt='Couldnt load'>
+                              <div class='image-heading-lg'>Good and Bad Reasons to Become an Entrepreneur</div>
+                              <div class='image-author-lg'>Dustin Moskovitz</div>
+                        </a>
+                  </div>
+            </div>
+            <div class="sm-screen">
+                  <div class="carousel" data-flickity='{ "autoPlay": 1500,"wrapAround": true }'>
+                        <div class="carousel-cell">
+                              <a href='netflix.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          Netflix’s Co-Founder Has 5 Pieces of Advice</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Omar Itani</div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='entrepreneur.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          Don't become an entrepreneur</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Aytekin Tank </div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='reframing.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          REFRAMING THE NARRATIVE ON ENTREPRENEURSHIP</div>
+                                    <div class='image-author-lg' style='left: 10%;'>GARY VAYNERCHUK</div>
+                              </a>
+                        </div>
+                        <div class="carousel-cell">
+                              <a href='reasons.html'><img
+                                          style='max-width: 100%;filter: grayscale(5%);filter: brightness(70%);'
+                                          src="images/picture1.jpg" alt='Couldnt load'>
+                                    <div class='image-heading-lg' style='left: 10%;right: 10%;font-size: 1.2rem;'>
+                                          Good and Bad Reasons to Become an Entrepreneur</div>
+                                    <div class='image-author-lg' style='left: 10%;'>Dustin Moskovitz</div>
+                              </a>
+                        </div>
+                  </div>
+            </div>
+      </div>
+      <div class="my-5 sm-screen"><br><br><br><br><br><br><br><br><br><br></div>
+      <!-- This is footer -->
+      <br>
+      <div id='footer' class="container-fluid">
+            <a target="_blank" href="https://www.facebook.com/insight.iitbombay/" id="facebook" class="p-3"><img class="icon"
+                        src="images/facebook.svg" alt="Hey!looks like the image couldn't load"></a>
+            <a target="_blank" href="https://www.instagram.com/insight_iit_bombay/" id="instagram" class="p-3"><img class="icon"
+                        src="images/instagram-sketched.svg" alt="Hey!looks like the image couldn't load"></a>
+            <a target="_blank" href="https://www.linkedin.com/company/insight-iitb/" id="linkedin" class="p-3"><img class="icon"
+                        src="images/linkedin .svg" alt="Hey!looks like the image couldn't load"></a>
+            
+
+            <script>
+                  $(document).scroll(function () {
+                        if ($(window).scrollTop() > 100) {
+                              document.getElementById("scrollBtn").style.display = "block";
+
+                        } else {
+                              document.getElementById("scrollBtn").style.display = "none";
+                        }
+
+
+                  });
+                  $("#scrollBtn").click(function () {
+                        $('html, body').animate({
+                              scrollTop: 0
+                        }, 1000, 'easeInOutExpo');
+                  });
+            </script>
+      </div>
+
+
+</body>
+
+
+</html>
